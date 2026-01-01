@@ -1,0 +1,72 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RoundImageView">
+<ppt>width=-2
+height=-2
+src=17301567
+ps=Logo展示区</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone
+ps=隐藏空间</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="Button">
+<ppt>width=-2
+height=-2
+text=按钮5
+ps=代码执行区</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom|center
+ps=版权声明条</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+gravity=center
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="RoundImageView">
+<ppt>width=45dp
+height=45dp
+src=17301567
+ps=组织Logo展示区</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=ByUsi软件
+textColor=#ff000000
+typeface=@font/001hh1.ttf
+textSize=18sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">fn byusi.ztl()</eventItme><eventItme type="loadingComplete">fr("@cuk/start.cuk",code)
+fn code.code(code,5)</eventItme><eventItme type="downkey">f(st_kC == 4)
+{
+	
+}</eventItme></UIEventset>

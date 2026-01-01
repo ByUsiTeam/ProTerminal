@@ -1,0 +1,25 @@
+//背景黑化
+us(2,"background","#121212")
+//Logo上传
+us(3,"src","@logo/terminal.png")
+//隐藏控件3
+us(3,"visibility","gone")
+//组织Logo上传
+us(8,"src","@logo/byusi.png")
+//以下是启动逻辑
+t()
+{
+	ufnsui()
+	{
+		dha(dh,false,true)
+		dh(dh,"duration",2000)
+		us(3,"dh",dh)
+		us(3,"visibility","visible")
+	}
+	stop(3000)
+	ufnsui()
+	{
+		fn core.uigo("home.iyu")
+		end()
+	}
+}

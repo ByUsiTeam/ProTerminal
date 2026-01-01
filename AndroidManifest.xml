@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>ProTerminal</title>
+<icon>icon.png</icon>
+<packageName>miao.byusi.properos.terminal</packageName>
+<versionName>beta2.1.0</versionName>
+<versionint>210</versionint>
+<sdk>26</sdk>
+<yuv>3</yuv>
+
+<remark>ProperOS Two项目使用的外部调试终端工具，不支持ProperOS的第一代版本</remark>
+<Permissions>android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.INTERNET
+android.permission.VIBRATE
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_EXTERNAL_STORAGE</Permissions>
+<createTime>2026-01-01 23:55:15</createTime>
+<upTime>2026-01-01 23:55:15</upTime>
